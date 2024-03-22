@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Schedule_actor {
+public class ScheduleActor {
   private int scheduleId;
   private int actorId;
 
