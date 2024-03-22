@@ -10,6 +10,6 @@ public class Place {
   private String name;
   private String address;
   private String content;
-  private int seat_count;
+  private int seatCount;
 
 }

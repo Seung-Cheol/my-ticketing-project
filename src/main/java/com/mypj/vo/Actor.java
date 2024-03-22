@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Actor {
-  private int actor_id;
+  private int id;
   private String name;
 
 }

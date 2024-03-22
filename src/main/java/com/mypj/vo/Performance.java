@@ -7,10 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Performance {
-  private int performance_id;
+  private int id;
   private String name;
   private String content;
-  private Date start_date;
-  private Date end_date;
+  private Date startDate;
+  private Date endDate;
 
 }

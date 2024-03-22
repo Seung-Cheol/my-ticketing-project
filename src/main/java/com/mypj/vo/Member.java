@@ -7,12 +7,12 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Member {
-  private int member_id;
+  private int id;
   private String nickname;
   private String email;
   private String password;
   private int auth;
-  private Date created_at;
+  private Date createdAt;
   private String image;
 
 }

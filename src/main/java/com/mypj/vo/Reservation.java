@@ -8,9 +8,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Reservation {
-  private int reservation_id;
-  private Date created_at;
-  private int member_id;
-  private int schedule_id;
+  private int id;
+  private Date createdAt;
+  private int memberId;
+  private int scheduleId;
 
 }
