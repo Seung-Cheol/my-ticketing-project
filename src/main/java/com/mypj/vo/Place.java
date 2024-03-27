@@ -6,7 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Place {
-  private int place_id;
+  private int id;
   private String name;
   private String address;
   private String content;

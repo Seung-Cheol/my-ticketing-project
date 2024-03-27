@@ -1,5 +1,5 @@
 package com.mypj.repository;
 
-public class MemberRepository {
+public interface MemberRepository {
 
 }

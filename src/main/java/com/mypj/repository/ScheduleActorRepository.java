@@ -1,5 +1,5 @@
 package com.mypj.repository;
 
-public class ScheduleActorRepository {
+public interface ScheduleActorRepository {
 
 }

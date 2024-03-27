@@ -1,5 +1,5 @@
 package com.mypj.service;
 
-public class AdminService {
+public interface AdminService {
 
 }
