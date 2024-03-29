@@ -10,7 +10,5 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 @RequestMapping("ticket")
 public class TicketingController {
-  public void cc() {
-    Map<Integer,Integer> ar = new HashMap<>();
-  }
+
 }

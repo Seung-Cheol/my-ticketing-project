@@ -43,3 +43,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.withType(JavaCompile).configureEach {
+	// 프로젝트의 소스 파일 인코딩을 gradle에게 알려준다.
+	// $javac -encoding UTF-8 ..
+	options.encoding = 'UTF-8'
+}
