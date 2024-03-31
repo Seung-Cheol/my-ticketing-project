@@ -23,7 +23,8 @@ public class MemberController {
   private final MemberService memberService;
 
   @PostMapping("login")
-  public void login() {
+  public void login(String email, String password) {
+
   }
 
   @PostMapping("join")
